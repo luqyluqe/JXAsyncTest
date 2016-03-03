@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JXAsyncTest_Example', :exclusive => true do
+  pod 'JXAsyncTest', :path => '../'
+end
+
+target 'JXAsyncTest_Tests', :exclusive => true do
+  pod 'JXAsyncTest', :path => '../'
+
+  
+end
