@@ -1,0 +1,14 @@
+PODS:
+  - JXAsyncTest (0.1.0)
+
+DEPENDENCIES:
+  - JXAsyncTest (from `../`)
+
+EXTERNAL SOURCES:
+  JXAsyncTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXAsyncTest: 4ccc981e71da2db5893c7f27c577ca37f3f65838
+
+COCOAPODS: 0.39.0

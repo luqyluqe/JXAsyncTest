@@ -1,0 +1,6 @@
+framework module JXAsyncTest {
+  umbrella header "JXAsyncTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
