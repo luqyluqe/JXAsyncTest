@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 An asynchronous testing tool for iOS.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JXAsyncTest"
+  s.homepage         = "https://github.com/luqyluqe/JXAsyncTest"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "luqyluqe" => "luqy.luqe@gmail.com" }
