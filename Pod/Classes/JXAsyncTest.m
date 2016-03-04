@@ -1,4 +1,3 @@
-#import <XCTest/XCTest.h>
 #import "JXAsyncTest.h"
 
 @implementation JXAsyncTest

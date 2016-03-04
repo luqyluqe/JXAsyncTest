@@ -11,11 +11,12 @@
 		6C55B9BB33F74E2ABEA59D4C1D4030EE /* JXAsyncTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52F044EFA96FE7CCAF49EEC82FF8D7 /* JXAsyncTest-dummy.m */; };
 		747987E3FA4388918C0554E9C98A75FF /* Pods-JXAsyncTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7287DBFACAE22F3859BEBEBB387AE128 /* Pods-JXAsyncTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77394CC5807B2056B281792C5A235646 /* Pods-JXAsyncTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4527A1B5B53757A9203BFDD06D47B5C9 /* Pods-JXAsyncTest_Example-dummy.m */; };
-		77F29C461530A3D926B004EA585E0CE8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B2409168AF6A4FC0B3E67099843BF68C /* ReplaceMe.m */; };
 		7C77614022D50C99921A5CCC76605E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8EFA831065CAE1C6CB8492D473F82D2F /* JXAsyncTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 674F8A84B8E0D1152C8DB3A786C0AF9A /* JXAsyncTest.bundle */; };
 		8F447D75E1E7C859207EE3933F967CB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		98D0835A8BE60AB09E310898CD2E115C /* Pods-JXAsyncTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E846631E8EBD39A804C302B00682A2 /* Pods-JXAsyncTest_Tests-dummy.m */; };
+		A9B5BB851C88886800F0D5FB /* JXAsyncTest.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B5BB831C88886800F0D5FB /* JXAsyncTest.h */; };
+		A9B5BB861C88886800F0D5FB /* JXAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B5BB841C88886800F0D5FB /* JXAsyncTest.m */; };
 		AF03C14D4D0413787B98170B1A1B3B27 /* Pods-JXAsyncTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB24242BAD62F1E1BB11D01C9073B91 /* Pods-JXAsyncTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9CD76DA22F5AB2941A49D5082857683 /* JXAsyncTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3BD1E86A82D490AD319F7C7A379820 /* JXAsyncTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -69,8 +70,9 @@
 		8AC02BCFD27731051FC683B9D23D0EF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E846631E8EBD39A804C302B00682A2 /* Pods-JXAsyncTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXAsyncTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		A601972086A1700D0DCB1DBAAC50246D /* Pods-JXAsyncTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXAsyncTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9B5BB831C88886800F0D5FB /* JXAsyncTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAsyncTest.h; sourceTree = "<group>"; };
+		A9B5BB841C88886800F0D5FB /* JXAsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAsyncTest.m; sourceTree = "<group>"; };
 		AF4E590803D6D1520922A002CB8EA252 /* Pods-JXAsyncTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXAsyncTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B2409168AF6A4FC0B3E67099843BF68C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB27652FC7A6A41BF8AE9AE98ED95857 /* Pods-JXAsyncTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXAsyncTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CEB24242BAD62F1E1BB11D01C9073B91 /* Pods-JXAsyncTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXAsyncTest_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -188,7 +190,8 @@
 		6CE888473B6B12BC1285AC5FA54D8332 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B2409168AF6A4FC0B3E67099843BF68C /* ReplaceMe.m */,
+				A9B5BB831C88886800F0D5FB /* JXAsyncTest.h */,
+				A9B5BB841C88886800F0D5FB /* JXAsyncTest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9CD76DA22F5AB2941A49D5082857683 /* JXAsyncTest-umbrella.h in Headers */,
+				A9B5BB851C88886800F0D5FB /* JXAsyncTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,8 +419,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B5BB861C88886800F0D5FB /* JXAsyncTest.m in Sources */,
 				6C55B9BB33F74E2ABEA59D4C1D4030EE /* JXAsyncTest-dummy.m in Sources */,
-				77F29C461530A3D926B004EA585E0CE8 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
