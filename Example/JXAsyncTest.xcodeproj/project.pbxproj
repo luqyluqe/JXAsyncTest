@@ -22,6 +22,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A920707D1CA4DA9E004E388A /* JXAsyncTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A92070711CA4DA9D004E388A /* JXAsyncTest.m */; };
+		A920707E1CA4DA9E004E388A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A92070741CA4DA9D004E388A /* Info.plist */; };
+		A920707F1CA4DA9E004E388A /* JXAsyncTest.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A92070761CA4DA9D004E388A /* JXAsyncTest.xcconfig */; };
+		A92070801CA4DA9E004E388A /* JXAsyncTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A92070771CA4DA9D004E388A /* JXAsyncTest-dummy.m */; };
 		ADB2F2A2EDE88D0ABCA71D91 /* Pods_JXAsyncTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D330040EABF2AF0F7D4B9 /* Pods_JXAsyncTest_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +65,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7907CA5E56F7A09D6C51B693 /* JXAsyncTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JXAsyncTest.podspec; path = ../JXAsyncTest.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A92070701CA4DA9D004E388A /* JXAsyncTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAsyncTest.h; sourceTree = "<group>"; };
+		A92070711CA4DA9D004E388A /* JXAsyncTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAsyncTest.m; sourceTree = "<group>"; };
+		A92070741CA4DA9D004E388A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92070751CA4DA9D004E388A /* JXAsyncTest.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = JXAsyncTest.modulemap; sourceTree = "<group>"; };
+		A92070761CA4DA9D004E388A /* JXAsyncTest.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JXAsyncTest.xcconfig; sourceTree = "<group>"; };
+		A92070771CA4DA9D004E388A /* JXAsyncTest-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JXAsyncTest-dummy.m"; sourceTree = "<group>"; };
+		A92070781CA4DA9D004E388A /* JXAsyncTest-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JXAsyncTest-prefix.pch"; sourceTree = "<group>"; };
+		A92070791CA4DA9D004E388A /* JXAsyncTest-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JXAsyncTest-umbrella.h"; sourceTree = "<group>"; };
 		BAA9C84763FEFA49B0F38095 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE9A894E6A32316A98ADF36C /* Pods_JXAsyncTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXAsyncTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26DB7720E013E757460477B /* Pods-JXAsyncTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAsyncTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXAsyncTest_Example/Pods-JXAsyncTest_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +119,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A920707C1CA4DA9D004E388A /* Development Pods */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for JXAsyncTest */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -191,6 +204,56 @@
 				436CBE0CBF334BE6A35868E1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A92070721CA4DA9D004E388A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A92070701CA4DA9D004E388A /* JXAsyncTest.h */,
+				A92070711CA4DA9D004E388A /* JXAsyncTest.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A92070731CA4DA9D004E388A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A92070721CA4DA9D004E388A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A920707A1CA4DA9D004E388A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92070741CA4DA9D004E388A /* Info.plist */,
+				A92070751CA4DA9D004E388A /* JXAsyncTest.modulemap */,
+				A92070761CA4DA9D004E388A /* JXAsyncTest.xcconfig */,
+				A92070771CA4DA9D004E388A /* JXAsyncTest-dummy.m */,
+				A92070781CA4DA9D004E388A /* JXAsyncTest-prefix.pch */,
+				A92070791CA4DA9D004E388A /* JXAsyncTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXAsyncTest";
+			sourceTree = "<group>";
+		};
+		A920707B1CA4DA9D004E388A /* JXAsyncTest */ = {
+			isa = PBXGroup;
+			children = (
+				A92070731CA4DA9D004E388A /* Pod */,
+				A920707A1CA4DA9D004E388A /* Support Files */,
+			);
+			name = JXAsyncTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A920707C1CA4DA9D004E388A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A920707B1CA4DA9D004E388A /* JXAsyncTest */,
+			);
+			name = "Development Pods";
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +349,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A920707E1CA4DA9E004E388A /* Info.plist in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				A920707F1CA4DA9E004E388A /* JXAsyncTest.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +465,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A920707D1CA4DA9E004E388A /* JXAsyncTest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				A92070801CA4DA9E004E388A /* JXAsyncTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

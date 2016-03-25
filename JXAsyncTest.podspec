@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JXAsyncTest"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "An asynchronous testing tool for iOS."
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-An asynchronous testing tool for iOS.
+A convenient asynchronous testing tool for iOS.
                        DESC
 
   s.homepage         = "https://github.com/luqyluqe/JXAsyncTest"

@@ -15,9 +15,9 @@
     return self;
 }
 
--(BOOL)runTest:(dispatch_block_t)test
+-(BOOL)runTest:(JXTestBlock)test
 {
-    test();
+    test(self);
     NSDate* timeoutDate=[NSDate dateWithTimeIntervalSinceNow:_timeoutSeconds];
     do{
         [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:timeoutDate];
