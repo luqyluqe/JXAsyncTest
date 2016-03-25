@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JXAsyncTest"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "An asynchronous testing tool for iOS."
 
 # This description is used to generate tags and improve search results.
